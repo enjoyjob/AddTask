@@ -95,7 +95,7 @@ namespace AddTask
                             {
                                 continue;
                             }
-                            bs.Add(new Custom(sTaskInfoArray[0], sTaskInfoArray[1], sTaskInfoArray[2]));
+                            bs.Add(new Custom(sTaskInfoArray[0], sTaskInfoArray[1], $"{sTaskInfoArray[2]}%")); //here add add % 
                         }
                     }
                     dgvTask.DataSource = bs;//赋值控件自动更新

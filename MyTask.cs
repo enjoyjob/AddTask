@@ -55,7 +55,7 @@ namespace AddTask
 
             override public string ToString()
             {
-                return $"{index},{status},{progress}%";
+                return $"{index},{status},{progress}"; //remove %
             }
         }
 
